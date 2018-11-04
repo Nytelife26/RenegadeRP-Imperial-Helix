@@ -1,4 +1,4 @@
-CLASS.name = "Death Trooper Soldier"
+CLASS.name = "Death Trooper Enlisted"
 CLASS.faction = FACTION_DT
 CLASS.isDefault = false
 
