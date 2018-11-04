@@ -3,6 +3,8 @@ ITEM.model = Model("models/lt_c/sci_fi/dm_container_small.mdl")
 ITEM.description = "A large flask of viscous Bacta."
 ITEM.category = "Medical"
 ITEM.price = 85
+ITEM.width = 1
+ITEM.height = 2
 
 ITEM.functions.Apply = {
 	sound = "npc/antlion_grub/squashed.wav",
