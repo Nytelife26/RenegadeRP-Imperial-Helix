@@ -1,5 +1,6 @@
 ITEM.name = "E-11 Blaster Rifle"
 ITEM.description = "A compact, fully automatic Imperial blaster rifle."
+ITEM.category = "Weaponry"
 ITEM.model = "models/weapons/w_e11.mdl"
 ITEM.class = "weapon_e11"
 ITEM.weaponCategory = "primary"
