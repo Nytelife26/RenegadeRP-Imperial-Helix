@@ -1,6 +1,6 @@
 CLASS.name = "Death Trooper Soldier"
 CLASS.faction = FACTION_DT
-CLASS.isDefault = false
+CLASS.isDefault = true
 
 function CLASS:OnSet(client)
 	local character = client:GetCharacter()
