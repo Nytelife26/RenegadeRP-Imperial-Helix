@@ -1,5 +1,6 @@
 ITEM.name = "E-11D Blaster Rifle"
 ITEM.description = "A matte black powerful blaster rifle."
+ITEM.category = "Weaponry"
 ITEM.model = "models/farena/weapons/w_e-11d.mdl"
 ITEM.class = "weapon_e11d"
 ITEM.weaponCategory = "primary"
