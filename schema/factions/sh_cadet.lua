@@ -26,5 +26,6 @@ FACTION.isGloballyRecognized = false
 function FACTION:OnCharacterCreated(client, character)
     local id = Schema:ZeroNumber(math.random(1, 99999), 5)
     local inventory = character:GetInventory()
+end
 
 FACTION_CADET = FACTION.index
