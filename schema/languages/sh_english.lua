@@ -20,4 +20,5 @@ LANGUAGE = {
     searchingCorpse = "Searching corpse...",
     radioNotOn = "Your radio isn't on!",
     radioRequired = "You need a radio to do this.",
-    radioAlreadyOn = "You already have a radio that is turned on!",
+    radioAlreadyOn = "You already have a radio that is turned on!"
+}
