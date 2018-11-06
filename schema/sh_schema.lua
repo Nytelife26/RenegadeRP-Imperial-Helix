@@ -28,7 +28,7 @@ function Schema:ZeroNumber(number, length)
 	return string.rep("0", amount)..tostring(number)
 end
 
-function Schema:IsEmpireRank(text, rank)
+function Schema:IsCombineRank(text, rank)
 	return string.find(text, "[%D+]"..rank.."[%D+]")
 end
 
@@ -50,7 +50,7 @@ do
 	end
 
 	function CLASS:OnChatAdd(speaker, text)
-		text = speaker:IsEmpire() and string.format("<:: %s ::>", text) or text
+		text = speaker:IsCombine() and string.format("<:: %s ::>", text) or text
 		chat.AddText(self.color, string.format(self.format, speaker:Name(), text))
 	end
 
@@ -81,7 +81,7 @@ do
 	end
 
 	function CLASS:OnChatAdd(speaker, text)
-		text = speaker:IsEmpire() and string.format("<:: %s ::>", text) or text
+		text = speaker:IsCombine() and string.format("<:: %s ::>", text) or text
 		chat.AddText(self.color, string.format(self.format, speaker:Name(), text))
 	end
 
@@ -94,7 +94,7 @@ do
 	CLASS.format = "%s requests \"%s\""
 
 	function CLASS:CanHear(speaker, listener)
-		return listener:IsEmpire() or speaker:Team() == FACTION_NAVY
+		return listener:IsCombine() or speaker:Team() == FACTION_NAVY
 	end
 
 	function CLASS:OnChatAdd(speaker, text)

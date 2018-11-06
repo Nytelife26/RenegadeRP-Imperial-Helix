@@ -30,9 +30,9 @@ end
 function FACTION:OnNameChanged(client, oldValue, value)
 	local character = client:GetCharacter()
 
-	if (!Schema:IsEmpireRank(oldValue, "ST") and Schema:IsEmpireRank(value, "ST")) then
+	if (!Schema:IsCombineRank(oldValue, "ST") and Schema:IsCombineRank(value, "ST")) then
 		character:JoinClass(CLASS_ST)
-	elseif (!Schema:IsEmpireRank(oldValue, "STO") and Schema:IsEmpireRank(value, "STO")) then
+	elseif (!Schema:IsCombineRank(oldValue, "STO") and Schema:IsCombineRank(value, "STO")) then
 		character:JoinClass(CLASS_STO)
 	end
 end

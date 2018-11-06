@@ -21,7 +21,7 @@ end
 local COMMAND_PREFIX = "/"
 
 function Schema:ChatTextChanged(text)
-	if (LocalPlayer():IsEmpire()) then
+	if (LocalPlayer():IsCombine()) then
 		local key = nil
 
 		if (text == COMMAND_PREFIX .. "radio ") then
@@ -49,7 +49,7 @@ function Schema:CanPlayerJoinClass(client, class, info)
 end
 
 function Schema:CharacterLoaded(character)
-	if (character:IsEmpire()) then
+	if (character:IsCombine()) then
 		vgui.Create("ixEmpireDisplay")
 	elseif (IsValid(ix.gui.empire)) then
 		ix.gui.empire:Remove()
@@ -91,7 +91,7 @@ function Schema:RenderScreenspaceEffects()
 
 	DrawColorModify(colorModify)
 
-	if (LocalPlayer():IsEmpire()) then
+	if (LocalPlayer():IsCombine()) then
 		render.UpdateScreenEffectTexture()
 
 		empireOverlay:SetFloat("$alpha", 0.5)
