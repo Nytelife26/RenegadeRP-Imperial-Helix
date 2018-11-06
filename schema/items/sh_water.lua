@@ -7,7 +7,6 @@ ITEM.height = 1
 
 ITEM.noBusiness = false
 
-[[
 ITEM.price = 15
 
 ITEM.functions.Drink = {
@@ -17,6 +16,5 @@ ITEM.functions.Drink = {
 		client:RestoreStamina(20)
 		client:SetHealth(math.Clamp(client:Health() + 5, 0, client:GetMaxHealth()))
 		client:EmitSound("npc/barnacle/barnacle_gulp1.wav", 75, 90, 0.35)
-	end,
-	OnCanRun = function(itemTable)
-]]
+	end
+}
