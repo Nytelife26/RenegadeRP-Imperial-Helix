@@ -9,7 +9,6 @@ ITEM.noBusiness = false
 
 [[
 ITEM.price = 15
-]]
 
 ITEM.functions.Drink = {
 	OnRun = function(itemTable)
@@ -20,3 +19,4 @@ ITEM.functions.Drink = {
 		client:EmitSound("npc/barnacle/barnacle_gulp1.wav", 75, 90, 0.35)
 	end,
 	OnCanRun = function(itemTable)
+]]
