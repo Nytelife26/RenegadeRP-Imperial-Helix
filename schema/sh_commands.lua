@@ -61,7 +61,7 @@ do
 	function COMMAND:OnRun(client, message)
 		local character = client:GetCharacter()
 		local inventory = character:GetInventory()
-
+	end
 		
 do
 	local COMMAND = {}
