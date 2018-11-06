@@ -62,7 +62,8 @@ do
 		local character = client:GetCharacter()
 		local inventory = character:GetInventory()
 	end
-		
+end
+
 do
 	local COMMAND = {}
 	COMMAND.arguments = ix.type.text
