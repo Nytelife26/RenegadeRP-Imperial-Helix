@@ -2,7 +2,7 @@ FACTION.name = "Death Troopers"
 FACTION.description = "A specialized and augmented soldier, designed for elite operations."
 FACTION.color = Color(25, 85, 10)
 FACTION.pay = 75
-FACTION.models = {"models/player/hydro/swbf_deathtrooper/swbf_deathtrooper2.mdl"}
+FACTION.models = {"models/player/soldier_stripped.mdl"}
 FACTION.isDefault = false
 FACTION.isGloballyRecognized = false
 FACTION.runSounds = {[0] = "NPC_CombineS.RunFootstepLeft", [1] = "NPC_CombineS.RunFootstepRight"}
