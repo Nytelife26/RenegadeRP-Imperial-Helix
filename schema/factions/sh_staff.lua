@@ -4,3 +4,5 @@ FACTION.color = Color(0, 255, 255)
 FACTION.pay = 0
 FACTION.isDefault = false
 FACTION.isGloballyRecognized = true
+
+FACTION_STAFF = FACTION.index
