@@ -20,30 +20,6 @@ end
 
 local COMMAND_PREFIX = "/"
 
-function Schema:ChatTextChanged(text)
-	if (LocalPlayer():IsEmpire()) then
-		local key = nil
-
-		if (text == COMMAND_PREFIX .. "radio ") then
-			key = "r"
-		elseif (text == COMMAND_PREFIX .. "w ") then
-			key = "w"
-		elseif (text == COMMAND_PREFIX .. "y ") then
-			key = "y"
-		elseif (text:sub(1, 1):match("%w")) then
-			key = "t"
-		end
-
-		if (key) then
-			netstream.Start("PlayerChatTextChanged", key)
-		end
-	end
-end
-
-function Schema:FinishChat()
-	netstream.Start("PlayerFinishChat")
-end
-
 function Schema:CanPlayerJoinClass(client, class, info)
 	return false
 end
