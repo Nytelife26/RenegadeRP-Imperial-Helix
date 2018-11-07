@@ -1,7 +1,7 @@
 
-Schema.name = "ImperialRP"
+Schema.name = "RenegadeRP"
 Schema.author = "RenegadeRP"
-Schema.description = "A schema based on Star Wars."
+Schema.description = "The premium Imperial Era experience."
 
 -- Include netstream
 ix.util.Include("libs/thirdparty/sh_netstream2.lua")
