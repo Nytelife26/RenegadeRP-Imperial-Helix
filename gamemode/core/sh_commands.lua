@@ -709,7 +709,7 @@ ix.command.Add("CharSetClass", {
 
 ix.command.Add("MapRestart", {
 	description = "@cmdMapRestart",
-	adminOnly = true,
+	superAdminOnly = true,
 	arguments = bit.bor(ix.type.number, ix.type.optional),
 	OnRun = function(self, client, delay)
 		delay = delay or 10
