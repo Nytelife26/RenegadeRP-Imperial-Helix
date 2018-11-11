@@ -436,7 +436,7 @@ end
 
 ix.command.Add("PlyWhitelist", {
 	description = "@cmdPlyWhitelist",
-	superAdminOnly = true,
+	adminOnly = true,
 	arguments = {
 		ix.type.player,
 		ix.type.text
@@ -495,7 +495,7 @@ ix.command.Add("CharGetUp", {
 
 ix.command.Add("PlyUnwhitelist", {
 	description = "@cmdPlyUnwhitelist",
-	superAdminOnly = true,
+	adminOnly = true,
 	arguments = {
 		ix.type.string,
 		ix.type.text
