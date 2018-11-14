@@ -5,7 +5,7 @@ do
 
 	function COMMAND:OnRun(client, message)
 		local character = client:GetCharacter()
-		local radios = character:GetInventory():GetItemsByUniqueID("handheld_radio", true)
+		local radios = character:GetInventory():GetItemsByUniqueID("portable_radio", true)
 		local item
 
 		for k, v in ipairs(radios) do
