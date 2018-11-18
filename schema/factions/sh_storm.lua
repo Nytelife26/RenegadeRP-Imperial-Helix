@@ -16,7 +16,7 @@ function FACTION:OnCharacterCreated(client, character)
 end
 
 function FACTION:GetDefaultName(client)
-	return "ST" .. Schema:ZeroNumber(math.random(1, 99999), 5), true
+	return "ST-" .. Schema:ZeroNumber(math.random(1, 99999), 5), true
 
 end
 
@@ -30,9 +30,9 @@ end
 function FACTION:OnNameChanged(client, oldValue, value)
 	local character = client:GetCharacter()
 
-	if (!Schema:IsEmpireRank(oldValue, "ST-") and Schema:IsEmpireRank(value, "ST")) then
+	if (!Schema:IsEmpireRank(oldValue, "ST") and Schema:IsEmpireRank(value, "ST")) then
 		character:JoinClass(CLASS_ST)
-	elseif (!Schema:IsEmpireRank(oldValue, "STO-") and Schema:IsEmpireRank(value, "STO")) then
+	elseif (!Schema:IsEmpireRank(oldValue, "STO") and Schema:IsEmpireRank(value, "STO")) then
 		character:JoinClass(CLASS_STO)
 	end
 end
