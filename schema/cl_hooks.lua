@@ -205,7 +205,7 @@ netstream.Hook("Frequency", function(oldFrequency)
 	end)
 end)
 
-netstream.Hook("ViewData", function(target, cid, data)
+netstream.Hook("ViewData", function(target, idc, data)
 	Schema:AddEmpireDisplayMessage("@cViewData")
 	vgui.Create("ixViewData"):Populate(target, cid, data)
 end)
