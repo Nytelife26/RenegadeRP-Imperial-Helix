@@ -1,7 +1,7 @@
 
 Schema.name = "RenegadeRP"
 Schema.author = "RenegadeRP"
-Schema.description = "The premium Imperial Era experience."
+Schema.description = "The Premium Imperial Era Experience."
 
 -- Include netstream
 ix.util.Include("libs/thirdparty/sh_netstream2.lua")
