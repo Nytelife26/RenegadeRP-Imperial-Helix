@@ -150,7 +150,7 @@ end
 do
 	local CLASS = {}
 	CLASS.color = Color(153, 0, 153)
-	CLASS.format = "\"%s\""
+	CLASS.format = ""
 
 	function CLASS:CanSay(speaker, text)
 		if (speaker:Team() != FACTION_STAFF) then
