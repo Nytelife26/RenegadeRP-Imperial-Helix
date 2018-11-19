@@ -146,3 +146,24 @@ do
 
 	ix.chat.Register("broadcast", CLASS)
 end
+
+do
+	local CLASS = {}
+	CLASS.color = Color(153, 0, 153)
+	CLASS.format = "\"%s\""
+
+	function CLASS:CanSay(speaker, text)
+		if (speaker:Team() != FACTION_STAFF) then
+			speaker:NotifyLocalized("notAllowed")
+
+			return false
+		end
+	end
+
+	function CLASS:OnChatAdd(speaker, text)
+		chat.AddText(self.color, string.format(self.format, speaker:Name(), text))
+	end
+
+	ix.chat.Register("announce", CLASS)
+end
+
