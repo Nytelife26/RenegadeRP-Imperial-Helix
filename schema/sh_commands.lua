@@ -171,3 +171,18 @@ do
 
 	ix.command.Add("CharSearch", COMMAND)
 end
+
+do
+	local COMMAND = {}
+	COMMAND.arguments = ix.type.text
+
+	function COMMAND:OnRun(client, message)
+		if (!client:GetNetVar("restricted")) then
+			ix.chat.Send(client, "announce", message)
+		else
+			return "@notNow"
+		end
+	end
+
+	ix.command.Add("Announce", COMMAND)
+end
