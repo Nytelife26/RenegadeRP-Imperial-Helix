@@ -149,7 +149,7 @@ end
 
 do
 	local CLASS = {}
-	CLASS.color = Color(153, 0, 153)
+	CLASS.color = Color(189, 47, 47)
 	CLASS.format = ""
 
 	function CLASS:CanSay(speaker, text)
