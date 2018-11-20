@@ -7,3 +7,4 @@ ITEM.width = 1
 ITEM.height = 1
 ITEM.outfitCategory = "Empire"
 ITEM.pacData = {}
+ITEM.newSkin = 1
