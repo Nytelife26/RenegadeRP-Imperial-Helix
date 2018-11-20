@@ -8,3 +8,4 @@ ITEM.height = 1
 ITEM.outfitCategory = "Empire"
 ITEM.pacData = {}
 ITEM.newSkin = 1
+ITEM.replacements = "models/npc/swbf_deathtrooper/swbf_deathtrooper2_npc.mdl"
