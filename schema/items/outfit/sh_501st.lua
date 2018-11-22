@@ -6,6 +6,8 @@ ITEM.model = "models/props_junk/cardboard_box003a.mdl"
 ITEM.width = 1
 ITEM.height = 1
 ITEM.outfitCategory = "Empire"
-ITEM.replacements = {"group01"}
 ITEM.newSkin = 1
-ITEM.replacements = "models/player/venator/501st_stormtrooper/501st_stormtrooper.mdl"
+ITEM.replacements = {
+	{"models/player/venator/501st_stormtrooper/501st_stormtrooper.mdl"}
+	{"group01", "group02"}
+}
