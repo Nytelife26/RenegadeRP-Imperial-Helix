@@ -9,3 +9,8 @@ ITEM.height = 2
 ITEM.isWeapon = true
 ITEM.isGrenade = false
 ITEM.weaponCategory = "primary"
+ITEM.iconCam = {
+	ang	= Angle(-0.70499622821808, 268.25439453125, 0),
+	fov	= 12.085652091515,
+	pos	= Vector(0, 200, 0)
+}
