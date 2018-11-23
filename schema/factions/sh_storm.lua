@@ -4,7 +4,7 @@ FACTION.color = Color(96, 96, 96)
 FACTION.pay = 50
 FACTION.isDefault = false
 FACTION.isGloballyRecognized = true
-FACTION.runSounds = {[0] = "NPC_CombineS.RunFootstepLeft", [1] = "NPC_CombineS.RunFootstepRight"}
+
 
 function FACTION:OnCharacterCreated(client, character)
 	local inventory = character:GetInventory()
