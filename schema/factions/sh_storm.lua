@@ -1,6 +1,6 @@
 FACTION.name = "Storm Trooper"
 FACTION.description = "The standard foot-soldier of the Empire, designed for various tasks."
-FACTION.color = Color(250, 250, 230)
+FACTION.color = Color(96, 96, 96)
 FACTION.pay = 50
 FACTION.isDefault = false
 FACTION.isGloballyRecognized = true
@@ -11,7 +11,8 @@ function FACTION:OnCharacterCreated(client, character)
 
 	inventory:Add("e11", 1)
 	inventory:Add("e11ammo", 4)
-  inventroy:Add("stormtrooper", 1)
+	inventory:Add("stormtrooper", 1)
+ 
 
 end
 
