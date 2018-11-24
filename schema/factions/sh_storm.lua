@@ -12,6 +12,7 @@ function FACTION:OnCharacterCreated(client, character)
 	inventory:Add("e11", 1)
 	inventory:Add("pulses", 4)
 	inventory:Add("stormtrooper", 1)
+	inventory:Add("idc", 1)
  
 
 end
