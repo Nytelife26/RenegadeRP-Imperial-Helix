@@ -10,7 +10,7 @@ function FACTION:OnCharacterCreated(client, character)
 	local inventory = character:GetInventory()
 
 	inventory:Add("e11", 1)
-	inventory:Add("e11ammo", 4)
+	inventory:Add("pulses", 4)
 	inventory:Add("stormtrooper", 1)
  
 
