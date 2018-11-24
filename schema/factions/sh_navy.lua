@@ -31,6 +31,15 @@ FACTION.models = {
     "models/player/scifi_wraith.mdl",
     "models/player/scifi_zoey.mdl"
 }
+
+function FACTION:OnCharacterCreated(client, character)
+	local inventory = character:GetInventory()
+	
+    inventory:Add("idc", 1)
+ 
+
+end
+
 FACTION.isDefault = false
 FACTION.isGloballyRecognized = true
 
