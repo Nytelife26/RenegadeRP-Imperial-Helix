@@ -1,7 +1,7 @@
 
 ix.currency.symbol = ""
-ix.currency.singular = "credit"
-ix.currency.plural = "credits"
+ix.currency.singular = "Credit"
+ix.currency.plural = "Credits"
 
 ix.config.SetDefault("scoreboardRecognition", true)
 ix.config.Set("music", "music/hl2_song2.mp3")
