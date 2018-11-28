@@ -8,6 +8,6 @@ ITEM.height = 1
 ITEM.outfitCategory = "Empire"
 ITEM.newSkin = 1
 ITEM.replacements = {
-	{"models/player/venator/501st_stormtrooper/501st_stormtrooper.mdl"}
+	{"models/player/venator/501st_stormtrooper/501st_stormtrooper.mdl"},
 	{"group01", "group02"}
 }
