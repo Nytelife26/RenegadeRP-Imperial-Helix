@@ -123,4 +123,14 @@ PLUGIN.definitions["models/props_c17/cashregister01a.mdl"] = {
 	description = "A register with some buttons and a drawer.",
 	width = 2,
 	height = 1
+	
+--]]
+
+PLUGIN.definitions["models/kingpommes/emperors_tower/imp_crates/imp_crate_single_cover_static.mdl"] = {
+	name = "Safe",
+	description = "A standard password-locked safe.",
+	width = 5,
+	height = 5,
+}
+	
 }
