@@ -1,5 +1,5 @@
-FACTION.name = "Imperial Navy"
-FACTION.description = "A Commander of the Imperial Navy"
+FACTION.name = "Imperial Senate"
+FACTION.description = "A member of the Imperial Senate."
 FACTION.color = Color(0, 0, 40)
 FACTION.pay = 150
 FACTION.models = {
@@ -44,4 +44,4 @@ end
 FACTION.isDefault = false
 FACTION.isGloballyRecognized = true
 
-FACTION_NAVY = FACTION.index
+FACTION_SENATE = FACTION.index
